@@ -7,7 +7,7 @@ import org.apache.log4j.*;
  */
 public class App 
 {
-	static Logger log=Logger.getLogger(App.class); 
+	static Logger log=Logger.getLogger(App.class);
 
     public static void main( String[] args )
     {
@@ -15,7 +15,7 @@ public class App
     }
 	
 	public int suma(int a, int b){
-		int result= a-b;
+		int result= a+b;
 		log.info("Returning "+a+"+"+b+"="+result);
 		return result;
 	}
